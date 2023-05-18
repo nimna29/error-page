@@ -2,38 +2,9 @@
 <html>
 
 <head>
-    <title>Application Error</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: sans-serif;
-            background-color: #121721;
-            color: #fff;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 100;
-        }
-        
-        article {
-            text-align: center;
-        }
-        
-        svg {
-            width: 50px;
-            margin-bottom: 1em;
-        }
-    </style>
+    <title>Application Error - MalDitectist</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="error.css">
 </head>
 
 <body>
@@ -42,7 +13,7 @@
             <defs>
                 <style>
                     .cls-1 {
-                        fill: #fff;
+                        fill: #c40505;
                     }
                 </style>
             </defs>
@@ -55,11 +26,30 @@
             </g>
         </svg>
         <h1>Application Error</h1>
-        <p>We're sorry, but something went wrong.</p>
+        <p>Apologies for the inconvenience, but something went wrong.</p>
         <p>Please try again later.</p>
-        <p>-- MalDitectist --</p>
+        <p style="color: #ffffff">
+            </br>-- MalDitectist --</p>
+        </br>
+        <div class="footer">
+            <div class="follow-for-more">
+                <div class="follow-for-more-text">Connect with the Developer</div>
+                <div class="follow-for-more-icons">
+                    <a href="https://github.com/nimna29" class="github-logo" target="_blank" rel="noopener noreferrer">
+                        <span class="visually-hidden"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nimna-niwarthana-4b7357207/" class="linkedin-logo" target="_blank" rel="noopener noreferrer">
+                        <span class="visually-hidden"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </article>
 
 </body>
+
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
 
 </html>
