@@ -1,2 +1,2 @@
-# error-page
+# Error Page - MalDitectist
 Error Page
